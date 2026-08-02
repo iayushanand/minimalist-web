@@ -84,3 +84,40 @@ body {
         max-width: 90vw;
     }
 }
+
+.projects {
+    width: min(700px, 90%);
+    margin: 5rem auto;
+    font-family: "Inter", sans-serif;
+}
+
+.projects-title {
+    font-family: "Cookie", cursive;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+.project {
+    margin-bottom: 2.5rem;
+}
+
+.project h2 {
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-bottom: 0.35rem;
+}
+
+.project p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+.project a {
+    color: #111;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
